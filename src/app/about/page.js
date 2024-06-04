@@ -1,13 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
 
-export default function Home() {
+
+export default function About() {
   return (
     <main className="flex min-h-screen flex-col">
       <div className="z-10 max-w-5xl w-full">
-        <button className="size-10">
-         <a href="/about">About</a>
-        </button>
+        <h1 className="text-lg underline">What is tinteeam's goal and who are we behind the scenes?</h1>
       </div>
     </main>
   );
