@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <div className="z-10 max-w-5xl w-full">
-        <button className="size-10">
-         <a href="/about">About</a>
-        </button>
+        <h1 className="text-lg underline font-bold">The roadmap</h1>
+         <a href="/about" className="border-2 border-sky-500 hover:font-bold">About</a>
+        
       </div>
     </main>
   );
