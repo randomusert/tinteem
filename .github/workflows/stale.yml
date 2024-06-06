@@ -22,4 +22,4 @@ jobs:
         stale-pr-message: 'Due to inactivity we have labeled as stale to prevent the closing the issue reply or remove the stale label'
         stale-issue-label: 'stale'
         stale-pr-label: 'stale'
-        close-issue-reason: 'inactivity'
+        
