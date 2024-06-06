@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function About() {
@@ -6,6 +7,9 @@ export default function About() {
     <main className="flex min-h-screen flex-col bg-sky-200">
       <div className="z-10 max-w-5xl w-full">
         <h1 className="text-lg underline font-bold">What is tinteeams goal and who are we behind the scenes?</h1>
+        <Link href="/">
+            <button className="bg-lime-800">main page</button>
+        </Link>
       </div>
     </main>
   );

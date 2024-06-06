@@ -7,8 +7,13 @@ export default function Home() {
       <div className="z-10 max-w-5xl w-full  space-x-2">
         <h1 className="text-lg underline font-bold">The roadmap</h1>
         
-         <a href="/about" className="border-2 border-sky-500 hover:font-bold text-xl">About</a>
-        <a href="/downloads" className="border-2 border-sky-500 hover:font-bold text-xl">Downloads</a>
+        <Link href="/about" clLinkssNLinkme="border-2 border-sky-500 hover:font-bold text-xl">
+        <button>About</button>
+        </Link>
+        <Link href="/downloads" clLinkssNLinkme="border-2 border-sky-500 hover:font-bold text-xl">
+        <button>Downloads</button>
+        </Link>
+        
       </div>
     </main>
   );
